@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-container {
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+
+#topmost-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 25px;
+}
+
+#topmost-nav .logo {
+    width: 45px;
+}
+
+#topmost-nav ul {
+    display: flex;
+    height: 30px;
+}
+
+#topmost-nav ul li {
+    padding: 0 25px;
+}
+
+#topmost-nav ul.topmost-nav1 {
+  flex: 1;
+  margin-left: 25px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input[type=text] {
+            height: 20px;
+            padding: 15px 10px;
+            font-size: 12px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(246, 243, 243);
+        }
+
+#write-icon {
+    padding-right: 10px;
+}
+
+#user-pic {
+    border-radius: 50%;
+}
+
+#bell, #plus-sign{
+    opacity: 0.7;
+}
+
+main {
+    display: flex;
+}
+
+/* right side section */
+
+#right-side {
+    position: relative;
+    width: 65%;
+    border-right: 1px solid rgb(196, 190, 190);
+}
+
+#right-sd-content {
+    width: 100%;
+    padding: 0 30px 0 20px;
+}
+
+nav.right-sd-nav {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+nav.right-sd-nav ul {
+    display: flex;
+    border-bottom: 1px solid rgb(196, 190, 190);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0;
+}
+
+nav.right-sd-nav ul li a#active {
+    border-bottom: 1px solid black;
+    padding-bottom: 14px;
+}
+
+article#article-container {
+    height: 30%;
+    padding: 30px 0 35px 0;
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head-content-item {
+    padding: 0 10px;
+}
+
+#mid-content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 15px 0;
+}
+
+.col-1 {
+    padding-right: 50px;
+}
+
+.col-1 h1 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.col-1 p {
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: serif;
+    letter-spacing: 0.5px;
+}
+
+.bottom-content ul {
+    display: flex;
+    color: rgb(73, 70, 70);
+}
+
+.bottom-content ul li {
+    padding: 5px;
+    margin-right: 15px;
+}
+
+#date-posted {
+    color: rgb(73, 70, 70);
+}
+
+#category {
+    background-color: rgb(214, 205, 205);
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    padding: 7px 10px;
+}
+
+/* Left side */
+#left-side {
+    width: 35%;
+    overflow-wrap: break-word;
+    padding: 15px 20px;
+    height: 2700px;
+    position: sticky;
+}
+
+.green-text {
+    color: rgb(23, 201, 23);
+    line-height: 20px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+
+.left-top {
+    height: 40%;
+}
+
+.left-top > h4 {
+    padding-bottom: 20px;
+}
+
+.staff-picks-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.staff-picks-top h5 {
+    padding: 0 10px;
+}
+
+.staff-picks p {
+    padding: 10px 0;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.social {
+    height: 40%;
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+
+.social-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.social-content ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.social-content p {
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+#twitter-connect {
+    border: 1px solid rgb(63, 60, 60);
+    padding: 7px 20px;
+    margin: 10px 0;
+    border-radius: 50px;
+}
+
+#twitter-connect img {
+    padding: 0 3px;
+}
+
+.maybe-later {
+    text-decoration: underline;
+}
+
+.rec-topics {
+    height: 30%;
+    padding: 10px 0;
+}
+
+.rec-topics-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.rec-topics-content h3 {
+    font-size: 20px;
+}
+
+.rec-topics-content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    align-items: flex-start;
+}
+
+.rec-topics-content ul li {
+    background-color: rgb(214, 205, 205);
+    border-radius: 22px;
+    color: black;
+    padding: 12px;
+    margin: 3px 10px 3px 0;
+}
+
+.follow-container {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.follow-content>h4 {
+    padding: 10px 0;
+}
+
+.follow-content-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.follow-text {
+    padding: 0 15px;
+}
+
+.follow-text h5 {
+    padding: 2px 0;
+}
+
+.follow-button {
+    border: 1px solid rgb(73, 70, 70);
+    padding: 8px 15px;
+    border-radius: 40px;
+}
+
+.recently-saved-container {
+    height: 45%;
+}
+
+.recently-saved-item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.saved-item-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    padding: 5px 0;
+}
+
+.saved-item-heading h5 {
+    padding: 0 10px;
+}
+
+.date-saved {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.date-saved li {
+    font-size: 14px;
+    padding: 10px 10px 10px 0;
+}
+
+footer {
+    position: absolute;
+    top: 2700px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    font-size: 14px;
+    padding: 7px 10px 0 0;
+}
